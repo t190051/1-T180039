@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int f(int x) { return /* ここを埋める */; }
+int f(int x) { return 0; }
 
 int main() {
     int x, y;
 
-    for(x = -8; /* ここを埋める */; /* ここを埋める */) {
-        for(y = 0; /* ここを埋める */; y++) {
-            /* ここを埋める */
+    for(x = -8; x < 9 ; x++) {
+        for(y = 0; y < x*x; y++) {
+            printf("*");
         }
-        /* ここを埋める */
+        printf("\n");
     }
 }
