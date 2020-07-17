@@ -6,7 +6,7 @@ int main() {
     int x, y;
 
     for(x = -8; x < 9 ; x++) {
-        for(y = 0; y < f(x); y++) {
+        for(y = 0; y < x*x; y++) {
             printf("*");
         }
         printf("\n");
